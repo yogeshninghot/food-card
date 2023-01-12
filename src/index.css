@@ -10,4 +10,29 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+    
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.mustTry{
+  /* display: inline-block; */
+  padding: 4px 12px;
+  font-size: 14px;
+  color: green;
+  background-color: rgb(213, 255, 213);
+  border-radius: 12px;
+  position: absolute;
+  bottom: 0;
+  margin: 10px;
+}
+.dNone{
+  display: none;
+}
+.app{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
